@@ -76,7 +76,7 @@ flowchart TD
 | Safety | No write route or write-capable tool; suspicious instruction heuristic; strict output validation | Regex detection is imperfect; structural controls carry the security boundary |
 | Observability | Correlation IDs, structured safe audit log, per-route/status counters, response latency | No OpenTelemetry backend, durable audit retention or distributed tracing deployment |
 | Evaluation | Synthetic positive, denial, abstention and refusal cases over real local HTTP | Contract gates do not measure broad reasoning, semantic quality or production readiness |
-| Delivery | Automated tests, GitHub Actions workflow, dependency-free local startup, optional Docker demo | Docker and GitHub-hosted CI must still run in their target environments |
+| Delivery | Automated tests, GitHub Actions workflow, dependency-free local startup, optional Docker demo | GitHub CI passes on Python 3.11, 3.12 and 3.13; Docker remains unverified |
 
 ## Optional real local model
 
