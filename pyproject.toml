@@ -1,0 +1,9 @@
+[project]
+name = "enterprise-sap-ai-copilot"
+version = "0.1.0"
+description = "Authorization-aware procurement evidence copilot with synthetic SAP data"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.ruff]
+line-length = 110

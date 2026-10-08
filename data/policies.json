@@ -1,0 +1,70 @@
+[
+  {
+    "id": "alpha-eg-receipt",
+    "tenant": "alpha",
+    "companies": [
+      "EG01"
+    ],
+    "roles": [
+      "procurement",
+      "finance"
+    ],
+    "title": "Goods receipt and invoice matching",
+    "text": "For EG01, an invoice with a missing goods receipt stays blocked. The buyer must verify receipt evidence with the warehouse; finance reviews the invoice only after receipt is recorded in SAP.",
+    "version": "demo-policy-v1"
+  },
+  {
+    "id": "alpha-eg-approval",
+    "tenant": "alpha",
+    "companies": [
+      "EG01"
+    ],
+    "roles": [
+      "procurement",
+      "finance"
+    ],
+    "title": "High value purchase order approval threshold",
+    "text": "For EG01, purchase orders above 250000 EGP require procurement manager approval in the standard SAP workflow. The assistant cannot approve or release an order.",
+    "version": "demo-policy-v1"
+  },
+  {
+    "id": "alpha-sa-receipt",
+    "tenant": "alpha",
+    "companies": [
+      "SA01"
+    ],
+    "roles": [
+      "procurement",
+      "finance"
+    ],
+    "title": "Goods receipt and invoice matching",
+    "text": "For SA01, missing goods receipt evidence blocks invoice matching. Obtain warehouse confirmation and route the exception to the responsible SAP reviewer.",
+    "version": "demo-policy-v1"
+  },
+  {
+    "id": "alpha-eg-finance",
+    "tenant": "alpha",
+    "companies": [
+      "EG01"
+    ],
+    "roles": [
+      "finance"
+    ],
+    "title": "Finance payment exception policy",
+    "text": "For EG01 finance reviewers, the synthetic payment exception escalation contact is DEMO-FINANCE-ESCALATION. Payment decisions remain in SAP with segregation of duties.",
+    "version": "demo-policy-v1"
+  },
+  {
+    "id": "beta-eg-approval",
+    "tenant": "beta",
+    "companies": [
+      "EG01"
+    ],
+    "roles": [
+      "procurement"
+    ],
+    "title": "Purchase order approval threshold",
+    "text": "For beta tenant EG01, the synthetic purchase order approval threshold is 10000 EGP. BETA-PRIVATE-POLICY is visible only to beta users.",
+    "version": "demo-policy-v1"
+  }
+]

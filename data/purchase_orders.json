@@ -1,0 +1,50 @@
+[
+  {
+    "tenant": "alpha",
+    "PurchaseOrder": "4500001001",
+    "CompanyCode": "EG01",
+    "SupplierName": "Nile Demo Supplies",
+    "NetAmount": "125000.00",
+    "Currency": "EGP",
+    "Status": "Blocked",
+    "ExceptionCode": "receipt_missing",
+    "LastChangedAt": "2026-10-01T09:00:00Z",
+    "SupplierBankAccount": "SYNTHETIC-NOT-A-REAL-BANK-ACCOUNT"
+  },
+  {
+    "tenant": "alpha",
+    "PurchaseOrder": "4500001002",
+    "CompanyCode": "EG01",
+    "SupplierName": "Delta Demo Trading",
+    "NetAmount": "300000.00",
+    "Currency": "EGP",
+    "Status": "Blocked",
+    "ExceptionCode": "approval_required",
+    "LastChangedAt": "2026-10-01T09:00:00Z",
+    "SupplierBankAccount": "SYNTHETIC-NOT-A-REAL-BANK-ACCOUNT"
+  },
+  {
+    "tenant": "alpha",
+    "PurchaseOrder": "4500002001",
+    "CompanyCode": "SA01",
+    "SupplierName": "Riyadh Demo Materials",
+    "NetAmount": "75000.00",
+    "Currency": "SAR",
+    "Status": "Blocked",
+    "ExceptionCode": "receipt_missing",
+    "LastChangedAt": "2026-10-01T09:00:00Z",
+    "SupplierBankAccount": "SYNTHETIC-NOT-A-REAL-BANK-ACCOUNT"
+  },
+  {
+    "tenant": "beta",
+    "PurchaseOrder": "4500003001",
+    "CompanyCode": "EG01",
+    "SupplierName": "Beta Confidential Demo",
+    "NetAmount": "9000.00",
+    "Currency": "EGP",
+    "Status": "Open",
+    "ExceptionCode": "none",
+    "LastChangedAt": "2026-10-01T09:00:00Z",
+    "SupplierBankAccount": "SYNTHETIC-NOT-A-REAL-BANK-ACCOUNT"
+  }
+]

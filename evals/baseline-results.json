@@ -1,0 +1,198 @@
+{
+  "generated_at": "2026-10-08T21:24:18.598837+00:00",
+  "provider": "extractive",
+  "evaluation_type": "synthetic contract gates; not real-world semantic quality",
+  "total": 16,
+  "passed": 16,
+  "p95_latency_ms": 6.1,
+  "scenarios": [
+    {
+      "id": "receipt-eg",
+      "passed": true,
+      "checks": {
+        "http_status": true,
+        "decision": true,
+        "required_evidence": true,
+        "grounded_rendering": true,
+        "authorized_policy_evidence": true,
+        "no_forbidden_data": true
+      },
+      "latency_ms": 6.1
+    },
+    {
+      "id": "approval-eg",
+      "passed": true,
+      "checks": {
+        "http_status": true,
+        "decision": true,
+        "required_evidence": true,
+        "grounded_rendering": true,
+        "authorized_policy_evidence": true,
+        "no_forbidden_data": true
+      },
+      "latency_ms": 2.17
+    },
+    {
+      "id": "receipt-sa",
+      "passed": true,
+      "checks": {
+        "http_status": true,
+        "decision": true,
+        "required_evidence": true,
+        "grounded_rendering": true,
+        "authorized_policy_evidence": true,
+        "no_forbidden_data": true
+      },
+      "latency_ms": 1.98
+    },
+    {
+      "id": "threshold",
+      "passed": true,
+      "checks": {
+        "http_status": true,
+        "decision": true,
+        "required_evidence": true,
+        "grounded_rendering": true,
+        "authorized_policy_evidence": true,
+        "no_forbidden_data": true
+      },
+      "latency_ms": 0.85
+    },
+    {
+      "id": "finance-authorized",
+      "passed": true,
+      "checks": {
+        "http_status": true,
+        "decision": true,
+        "required_evidence": true,
+        "grounded_rendering": true,
+        "authorized_policy_evidence": true,
+        "no_forbidden_data": true
+      },
+      "latency_ms": 0.85
+    },
+    {
+      "id": "finance-denied",
+      "passed": true,
+      "checks": {
+        "http_status": true,
+        "decision": true,
+        "required_evidence": true,
+        "grounded_rendering": true,
+        "authorized_policy_evidence": true,
+        "no_forbidden_data": true
+      },
+      "latency_ms": 0.86
+    },
+    {
+      "id": "tenant-beta",
+      "passed": true,
+      "checks": {
+        "http_status": true,
+        "decision": true,
+        "required_evidence": true,
+        "grounded_rendering": true,
+        "authorized_policy_evidence": true,
+        "no_forbidden_data": true
+      },
+      "latency_ms": 0.86
+    },
+    {
+      "id": "company-denied",
+      "passed": true,
+      "checks": {
+        "http_status": true,
+        "no_forbidden_data": true
+      },
+      "latency_ms": 0.71
+    },
+    {
+      "id": "tenant-po-denied",
+      "passed": true,
+      "checks": {
+        "http_status": true,
+        "no_forbidden_data": true
+      },
+      "latency_ms": 1.99
+    },
+    {
+      "id": "unknown-po",
+      "passed": true,
+      "checks": {
+        "http_status": true,
+        "no_forbidden_data": true
+      },
+      "latency_ms": 1.91
+    },
+    {
+      "id": "write-refused",
+      "passed": true,
+      "checks": {
+        "http_status": true,
+        "decision": true,
+        "required_evidence": true,
+        "grounded_rendering": true,
+        "authorized_policy_evidence": true,
+        "no_forbidden_data": true
+      },
+      "latency_ms": 0.85
+    },
+    {
+      "id": "injection-refused",
+      "passed": true,
+      "checks": {
+        "http_status": true,
+        "decision": true,
+        "required_evidence": true,
+        "grounded_rendering": true,
+        "authorized_policy_evidence": true,
+        "no_forbidden_data": true
+      },
+      "latency_ms": 0.77
+    },
+    {
+      "id": "out-of-domain",
+      "passed": true,
+      "checks": {
+        "http_status": true,
+        "decision": true,
+        "required_evidence": true,
+        "grounded_rendering": true,
+        "authorized_policy_evidence": true,
+        "no_forbidden_data": true
+      },
+      "latency_ms": 0.85
+    },
+    {
+      "id": "no-policy",
+      "passed": true,
+      "checks": {
+        "http_status": true,
+        "decision": true,
+        "required_evidence": true,
+        "grounded_rendering": true,
+        "authorized_policy_evidence": true,
+        "no_forbidden_data": true
+      },
+      "latency_ms": 0.87
+    },
+    {
+      "id": "invalid-po",
+      "passed": true,
+      "checks": {
+        "http_status": true,
+        "no_forbidden_data": true
+      },
+      "latency_ms": 0.66
+    },
+    {
+      "id": "operator-no-data",
+      "passed": true,
+      "checks": {
+        "http_status": true,
+        "no_forbidden_data": true
+      },
+      "latency_ms": 0.69
+    }
+  ]
+}

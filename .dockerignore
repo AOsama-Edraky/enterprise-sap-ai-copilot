@@ -1,0 +1,6 @@
+.git
+.runtime
+.venv
+**/__pycache__
+.env*
+evals/latest-results.json
